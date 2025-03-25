@@ -1,69 +1,104 @@
-# GetCertified
+# GetCertified - 3D Interactive Learning Platform
 
 ## Description
 
-GetCertified is a project aimed at helping users obtain certifications in various fields by providing essential resources and tools. This repository contains all necessary files and instructions to get started.
+GetCertified is an interactive 3D web application built with React and Three.js, aimed at providing an immersive learning experience for certification preparation. The project demonstrates the integration of modern web technologies with 3D graphics to create engaging educational content.
 
-## Table of Contents
+## Technologies Used
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- **React** - Frontend library for building user interfaces
+- **TypeScript** - Static typing for JavaScript
+- **Vite** - Next-generation frontend tooling
+- **Three.js** - 3D graphics library
+- **React Three Fiber** - React renderer for Three.js
+- **React Three Drei** - Useful helpers for React Three Fiber
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Node.js (version 14.0 or higher)
+- npm (usually comes with Node.js)
 
 ## Installation
-
-To install this project, follow these steps:
 
 1. Clone the repository:
     ```bash
     git clone https://github.com/subhamsingh123/GetCertified.git
     ```
+
 2. Navigate to the project directory:
     ```bash
     cd GetCertified
     ```
-3. Install the required dependencies:
+
+3. Install dependencies:
     ```bash
     npm install
     ```
 
-## Usage
+## Development
 
-To use this project, follow these steps:
+To start the development server:
 
-1. Start the development server:
-    ```bash
-    npm start
-    ```
-2. Open your browser and navigate to `http://localhost:3000`.
+```bash
+npm run dev
+```
+
+This will start the application in development mode. Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
+
+## Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+  ├── components/     # React components
+  │   └── Scene.tsx  # Main Three.js scene
+  ├── App.tsx        # Root component
+  ├── main.tsx       # Entry point
+  └── style.css      # Global styles
+```
+
+## Features
+
+- Interactive 3D environment
+- Responsive design
+- Camera controls (orbit, pan, zoom)
+- Basic lighting setup
+- TypeScript support for better development experience
 
 ## Contributing
 
-We welcome contributions! Please follow these steps to contribute:
+We welcome contributions! Please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-3. Make your changes and commit them:
-    ```bash
-    git commit -m "Add your commit message"
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-5. Open a pull request.
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact us:
+Subham Singh - [GitHub Profile](https://github.com/subhamsingh123)
 
-- **Subham Singh** - [GitHub Profile](https://github.com/subhamsingh123)
+## Acknowledgments
+
+- Three.js community
+- React Three Fiber team
+- Vite team
